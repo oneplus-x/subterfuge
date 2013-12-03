@@ -1,0 +1,11 @@
+===============================
+INSTALLATION PROCEDURES
+===============================
+Double click install.py to run the graphical installer
+
+===============================
+INSTALLATION PROCEDURES CLI
+===============================
+From the command line type:
+tar -xvf subterfuge_packages.tar.gz
+python install.py -i
