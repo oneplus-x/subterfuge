@@ -3,7 +3,7 @@ echo "This will install Subterfuge. Do you want to install it ? (Y/N)"
 	if [[ $install = Y || $install = y ]] ; then
 		echo -e "\e[31m[+] Installing Subterfuge now!\e[0m"
 		cd /tmp
-		wget http://subterfuge.googlecode.com/files/SubterfugePublicBeta5.0.tar.gz
+		wget https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/subterfuge/SubterfugePublicBeta5.0.tar.gz
 		tar zxvf SubterfugePublicBeta5.0.tar.gz
 		cd subterfuge
 		python install.py
